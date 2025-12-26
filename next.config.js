@@ -8,10 +8,6 @@ const nextConfig = {
   images: {
     domains: ['firebasestorage.googleapis.com'],
   },
-  // Explicitly enable CSS processing
-  experimental: {
-    optimizeCss: true,
-  },
 }
 
 module.exports = nextConfig
